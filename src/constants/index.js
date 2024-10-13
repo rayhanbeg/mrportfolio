@@ -60,7 +60,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "uttara, dhaka-1230, bangladesh",
+  address: "Uttara, dhaka-1230, bangladesh",
   phoneNo: "+8801746982658",
   email: "mdrayhan40301@gmail.com",
 };
