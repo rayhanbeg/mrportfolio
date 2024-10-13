@@ -1,18 +1,16 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a Junior MERN Stack Developer with 1 year of hands-on experience in building dynamic, responsive web applications using MongoDB, Express.js, React.js, and Node.js. My passion for coding and problem-solving drives me to create efficient and scalable solutions, ensuring a seamless user experience. 
 My experience includes working on real-time applications, implementing user authentication, and managing databases with MongoDB. I am also familiar with using Git for version control, collaborating with teams, and following best practices in coding.`;
 
-export const ABOUT_TEXT = `I am a Junior MERN Stack Developer with 1 year of hands-on experience in building dynamic, responsive web applications using MongoDB, Express.js, React.js, and Node.js. My passion for coding and problem-solving drives me to create efficient and scalable solutions, ensuring a seamless user experience.
+export const ABOUT_TEXT = `I am a Junior MERN Stack Developer with 1 year of experience in building dynamic web applications using MongoDB, Express, React, and Node. I focus on creating scalable, efficient solutions and delivering seamless user experiences.
 
-Over the past year, I’ve honed my skills in full-stack development, from designing and implementing RESTful APIs to developing interactive front-end components with React. My experience includes working on real-time applications, implementing user authentication, and managing databases with MongoDB. I am also familiar with using Git for version control, collaborating with teams, and following best practices in coding and testing.
+My skills include full-stack development, RESTful API design, real-time apps, user authentication, and database management with MongoDB. I also have experience in version control with Git and team collaboration.
 
-I am always eager to learn and stay updated with the latest technologies in the web development space. I enjoy working in a team environment where I can contribute to meaningful projects while continuing to grow and refine my skills. My goal is to develop innovative solutions that not only meet but exceed client expectations.
+I'm eager to keep learning, work on meaningful projects, and make an impact in a forward-thinking company.`;
 
-I’m excited about the opportunity to bring my technical skills and enthusiasm to a forward-thinking company where I can make a meaningful impact.`;
 
 export const EXPERIENCES = [
   {
@@ -36,34 +34,33 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce platform that includes product listing, shopping cart, payment integration, and user authentication. The project is responsive and provides a seamless shopping experience.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "redis"],
+    liveLink: "https://nextbuy.onrender.com",
+    codeLink: "https://github.com/rayhanbeg/nextbuy"
   },
   {
-    title: "Task Management App",
+    title: "Assets Management System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A comprehensive system for managing assets like electronics and gadgets. Users can add, track, and categorize assets, providing real-time insights into asset utilization.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    liveLink: "https://assign12-12.web.app/",
+    codeLink: "https://github.com/rayhanbeg/returnTrack"
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
+    title: "Residential Property Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A residential property listing website where users can view properties for sale and update profiles. The platform is fully responsive and user-friendly.",
+    technologies: ["HTML", "CSS", "React",],
+    liveLink: "https://homenest-9.web.app/",
+    codeLink: "https://github.com/rayhanbeg/HomeNest"
   },
 ];
 
 export const CONTACT = {
   address: "uttara, dhaka-1230, bangladesh",
-  phoneNo: "+8801909870274 ",
+  phoneNo: "+8801746982658",
   email: "mdrayhan40301@gmail.com",
 };
