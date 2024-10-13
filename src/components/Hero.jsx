@@ -24,8 +24,8 @@ const Hero = () => {
             <div className="flex flex-row gap-4 mt-6">
               {/* Resume Download Button */}
               <a
-                href="/Resume (2).docx"
-                download="MdRayhan_Resume.docx"
+                href="/Resume.pdf"
+                download="Resume.pdf"
                 className="relative inline-flex items-center justify-center px-6 py-2 text-sm lg:px-8 lg:py-3 lg:text-base text-white font-semibold rounded-lg overflow-hidden bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border-2 border-transparent transition-transform transform hover:scale-105 hover:shadow-lg"
               >
                 <span className="absolute inset-0 border-2 border-transparent rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-gradient-border"></span>
