@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a Junior MERN Stack Developer with 1 year of hands-on experience in building dynamic, responsive web applications using MongoDB, Express.js, React.js, and Node.js. My passion for coding and problem-solving drives me to create efficient and scalable solutions, ensuring a seamless user experience. 
@@ -44,16 +45,27 @@ export const PROJECTS = [
     image: project2,
     description:
       "A comprehensive system for managing assets like electronics and gadgets. Users can add, track, and categorize assets, providing real-time insights into asset utilization.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Firebase"],
     liveLink: "https://assign12-12.web.app/",
     codeLink: "https://github.com/rayhanbeg/returnTrack"
   },
+
+  {
+    title: "ideoHub",
+    image: project3,
+    description:
+      "A platform designed for job applications in fields such as graphics design and web development. It facilitates job seekers in showcasing their portfolios and connecting with potential employers.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Firebase"],
+    liveLink: "https://ideohub-i9098.web.app/",
+    codeLink: "https://github.com/rayhanbeg/IdeoHub",
+  },
+
   {
     title: "Residential Property Website",
     image: project4,
     description:
       "A residential property listing website where users can view properties for sale and update profiles. The platform is fully responsive and user-friendly.",
-    technologies: ["HTML", "CSS", "React",],
+    technologies: ["HTML", "CSS", "React","Firebase"],
     liveLink: "https://homenest-9.web.app/",
     codeLink: "https://github.com/rayhanbeg/HomeNest"
   },
