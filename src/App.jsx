@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import WhyHireMe from "./components/WhyHireMe";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Technologies/>
         <Experience/>
         <Projects/>
+        <WhyHireMe/>
         <Contact/>
       </div>
     </div>
